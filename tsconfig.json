@@ -20,7 +20,9 @@
     "lib": ["ESNext", "DOM"],
     "types": ["node", "jest"],
 
-    "paths": {}
+    "paths": {
+      "~/*": ["packages/*/src"]
+    }
   },
   "exclude": ["node_modules"]
 }
