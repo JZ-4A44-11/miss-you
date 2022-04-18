@@ -1,0 +1,28 @@
+{
+  "name": "@miss-you/aozora",
+  "version": "0.0.0",
+  "description": "Miss You react frontend",
+  "main": "src/main.tsx",
+  "license": "LGPL-3.0-or-later",
+  "author": "Joseph Estevez <joseph.estevez@protonmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waterssh/miss-you.git",
+    "directory": "packages/aozora"
+  },
+  "bugs": {
+    "url": "https://github.com/waterssh/miss-you/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.5"
+  }
+}
