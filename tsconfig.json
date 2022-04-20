@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "module": "CommonJS",
     "sourceMap": false,
     "target": "ES2022",
     "moduleResolution": "node",
