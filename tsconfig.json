@@ -1,28 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "rootDir": ".",
-    "outDir": "dist",
     "sourceMap": false,
     "target": "ES2022",
-    "useDefineForClassFields": false,
     "moduleResolution": "node",
-    "module": "ESNext",
-    "allowJs": false,
     "strict": true,
-    "noUnusedLocals": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "removeComments": true,
     "skipLibCheck": true,
-    "jsx": "preserve",
-    "lib": ["ESNext", "DOM"],
-    "types": ["node", "jest"],
-
-    "paths": {
-      "~/*": ["packages/*/src"]
-    }
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM"]
   },
-  "exclude": ["node_modules"]
+  "exclude": ["**/dist", "**/build", "**/node_modules"]
 }
