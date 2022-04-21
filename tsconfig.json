@@ -12,7 +12,12 @@
     "removeComments": true,
     "skipLibCheck": true,
     "jsx": "react-jsx",
-    "lib": ["ESNext", "DOM"]
+    "lib": ["ESNext", "DOM"],
+
+    "paths": {
+      "@miss-you/aozora": ["./packages/aozora"],
+      "@miss-you/kimetayo": ["./packages/kimetayo"]
+    }
   },
   "exclude": ["**/dist", "**/build", "**/node_modules"]
 }
