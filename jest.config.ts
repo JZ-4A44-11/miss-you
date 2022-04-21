@@ -10,7 +10,7 @@ const config: Config.InitialOptions = {
   testRegex: '.*\\.test\\.ts$',
   coverageDirectory: 'coverage',
   setupFilesAfterEnv: ['./jest.setup.ts'],
-  moduleFileExtensions: ['json', 'ts'],
+  moduleFileExtensions: ['json', 'js', 'ts'],
   moduleDirectories: ['node_modules', 'packages'],
   coverageReporters: ['html', 'lcov', 'text'],
   transform: tsjPreset.transform,
