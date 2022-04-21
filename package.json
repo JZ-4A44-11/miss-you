@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint packages/* --fix"
+    "lint": "eslint packages/* --fix",
+    "test": "jest"
   },
   "engines": {
     "node": ">=14.0",
@@ -12,6 +13,8 @@
   },
   "devDependencies": {
     "@nestjs/cli": "^8.2.5",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.25",
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
     "cypress": "^9.5.4",
