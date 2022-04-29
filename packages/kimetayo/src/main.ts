@@ -4,6 +4,6 @@ import { AppModule } from './app.module'
 
 async function bootstrap(): Promise<void> {
   const app = await NestFactory.create(AppModule)
-  await app.listen(app.get(ConfigService).get<number>('PORT') ?? 4444)
+  await app.listen(app.get(ConfigService).get<number>('port') ?? 4444)
 }
 bootstrap().catch(null)
